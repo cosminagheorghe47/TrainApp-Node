@@ -1,10 +1,22 @@
 DESCRIERE:
 <br>
-Prin acest API se poate realiza o aplicatie de trenuri, avand uramtoarele modele: Statie, Tren, User, Booking. Exista CRUD si filtrari pentru toate entitatile si ordonari dupa data pentru trenuri.
+Acest API permite dezvoltarea unei aplicații complete pentru gestionarea trenurilor, utilizând următoarele modele de date: Stație, Tren, User și Booking. Fiecare dintre aceste modele are asociate operațiuni CRUD (Create, Read, Update, Delete), permițând manipularea și gestionarea eficientă a datelor. API-ul oferă funcții de filtrare pentru toate entitățile, permițând utilizatorilor să găsească rapid informațiile necesare. Trenurile pot fi ordonate după data de plecare sau sosire, facilitând astfel planificarea călătoriilor.
 <br>
-.env contine:
 <br>
-1.DB_HOST 2.DB_PORT 3.DB_USER 4.DB_PASSWORD 5.DB_NAME
+Configurarea Fișierului .env
+<br>
+Pentru a permite conectarea la baza de date și configurarea corectă a aplicației, fișierul .env trebuie să conțină următoarele variabile:
+<br>
+DB_HOST: Adresa serverului de baze de date.
+<br>
+DB_PORT: Portul utilizat pentru conectarea la serverul de baze de date.<br>
+DB_USER: Numele de utilizator pentru autentificare la baza de date.<br>
+DB_PASSWORD: Parola corespunzătoare utilizatorului pentru baza de date.<br>
+DB_NAME: Numele bazei de date utilizate de aplicație.<br>
+<br>
+Pornirea Aplicației<br>
+Instalează Dependențele: npm install<br>
+Pornește Aplicația: node index.js<br>
 <br>
 Exemplu Flow: 
 </br>
