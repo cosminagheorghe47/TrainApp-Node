@@ -1,3 +1,5 @@
+DESCRIERE:
+<br>
 Prin acest API se poate realiza o aplicatie de trenuri, avand uramtoarele modele: Statie, Tren, User, Booking. Exista CRUD si filtrari pentru toate entitatile si ordonari dupa data pentru trenuri.
 <br>
 .env contine:
